@@ -123,7 +123,7 @@ This files contents are outlined below >>>>>
 	display: block;
 	width:40px;
 	height:40px;
-	background: #bb9338;
+	background: #ff9f00;
 	color:#fff;
 	font-size: 25px;
 	text-align: center;
@@ -178,14 +178,14 @@ a:active {
 	transition: all 0.3s ease-in-out;
 }
 .btn_color {
-	background: #c79c39;
+	background: #ff9f00;
 }
 .btn_color:hover {
 	background: #2c2c2c;
 }
 .hover_btn:hover {
 	background: #fff;
-	color:#bb9338;
+	color:#ff9f00;
 }
 button {
 	border:none;
@@ -257,7 +257,7 @@ h6 {
 }
 .title_holder p.upper_title {
 	font-family: 'PT Serif', serif;
-	color:#c8a34c;
+	color:#ff9f00;
 	font-size: 16px;
 }
 .title_holder p:last-child {
@@ -269,7 +269,7 @@ h6 {
 	display: block;
 	width:45px;
 	height:2px;
-	background: #bb9745;
+	background: #ff9f00;
 	margin-bottom: 15px;
 }
 .title_holder_center>span {
@@ -330,11 +330,11 @@ h3 span.firm,.latest_news .single_news_item .post_history ul li i,.latest_news .
 .blog_with_sidebar .blog_single_post .post_meta>a,.blog_with_sidebar .blog_single_post .img_holder span a,.side_bar_style_two .category ul li a:hover,
 .side_bar_style_two .category ul li.active a,.side_bar_style_two .category ul li a i,.side_bar_style_two .recent_news p span,
 .side_bar_style_two .call_us a,.attorney_details .name span,.error_page h1,.gallery .title span {
-	color:#bb9338;
+	color:#ff9f00;
 }
 .right_firm .our_goal a:hover, #practise_area .practise_text a:hover,
 .latest_news .single_news_item .post a:hover,.latest_news .news_post .post a:hover,.practise_area_style_two .single_item a:hover  {
-	color:#bc8a1a;
+	color:#ff9f00;
 }
 /*===================== Header/Main menu ============*/
 header {
@@ -376,7 +376,7 @@ header .nav {
 .navbar-default .navbar-nav > li:hover > a,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:active {
-	color:#bb9338;
+	color:#ff9f00;
 }
 header .nav>li:last-child>a {
 	padding-right:0;
@@ -410,7 +410,7 @@ header .nav>li:last-child>a {
 	display: block;
 }
 .navbar-default .navbar-nav > li .sub_menu li a:hover {
-	color:#bb9338;
+	color:#ff9f00;
 }
 .navbar-default .navbar-nav > li .sub_menu li:last-child a {
 	border:none;
@@ -455,7 +455,7 @@ header .nav>li:last-child>a {
 	color:#999999;
 }
 #search_option button {
-	background: #bb9338;
+	background: #ff9f00;
 	line-height: 46px;
 	width:50px;
 	text-align: center;
@@ -484,7 +484,7 @@ header .search_icon {
 #main_slider h5 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	color:#cb9b2f;
+	color:#ff9f00;
 	font-size: 28px;
 	text-transform: uppercase;
     letter-spacing: 0px;
@@ -509,7 +509,7 @@ header .search_icon {
 	letter-spacing: 0.7px !important;
 }
 #main_slider a {
-	background: #bb9338;
+	background: #ff9f00;
 	color:#fff;
 	padding: 15px 30px;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -518,7 +518,7 @@ header .search_icon {
 }
 #main_slider a:hover {
 	background: #fff;
-	color:#bb9338;
+	color:#ff9f00;
 }
 .uranus .tp-bullet {
 	margin-left: 15px;
@@ -529,7 +529,7 @@ header .search_icon {
 }
 .uranus .tp-bullet.selected .tp-bullet-inner,
 .uranus .tp-bullet:hover .tp-bullet-inner {
-	background-color: #cb9b2f;
+	background-color: #ff9f00;
 }
 
 
@@ -564,7 +564,7 @@ header .search_icon {
 
 .hades.tparrows:hover:before,
 .hades.tparrows:focus:before {
-	background: rgba(200,163,76,1) !important;
+	background: rgb(#ff9f00) !important;
 	color:#fff;
 }
 /*========================= We are Right Firm ===================*/
@@ -692,7 +692,7 @@ header .search_icon {
 .need_legal_advice .container a.btn1:hover,
 .need_legal_advice .container a.btn2:hover {
 	background: #fff;
-	color:#c8a34c;
+	color:#ff9f00;
 }
 .about-us .need_legal_advice {
 	margin-top: 0;
@@ -741,7 +741,7 @@ header .search_icon {
 	left:0;
 	width:100%;
 	height: 100%;
-	background: #bb9338;
+	background: #ff9f00;
 	color:#fff;
 	text-align: center;
 	padding-top: 30px;
@@ -803,7 +803,7 @@ header .search_icon {
 	content: '';
 	width:4px;
 	height:100%;
-	background: #bb9338;
+	background: #ff9f00;
 	position: absolute;
 	top:0;
 	left:0;
@@ -830,7 +830,7 @@ header .search_icon {
 	height:80px;
 	line-height: 80px;
 	text-align: center;
-	background: #bb9338;
+	background: #ff9f00;
 	border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -947,7 +947,7 @@ header .search_icon {
 }
 .company_achievement .left_half  a:hover {
 	background: #fff;
-	color:#bb9745;
+	color:#ff9f00;
 }
 .company_achievement .right_half h2 {
 	color:#000;
@@ -978,7 +978,7 @@ header .search_icon {
 	width:150px;
 }
 .company_achievement .right_half  a:hover {
-	background: #bb9338;
+	background: #ff9f00;
 }
 .company_achievement .logo_holder {
 	position: absolute;
@@ -994,7 +994,7 @@ header .search_icon {
 	position: relative;
 }
 .our_attorney .text {
-	border-top:4px solid #bb9745;
+	border-top:4px solid #ff9f00;
 }
 .our_attorney .text>a {
 	display: block;
@@ -1002,7 +1002,7 @@ header .search_icon {
 }
 .our_attorney .text span {
 	display: block;
-	color:#bb9338;
+	color:#ff9f00;
 	font-size: 14px;
 }
 .our_attorney .owl_slider {
@@ -1024,7 +1024,7 @@ header .search_icon {
 	bottom: 0;
 	left:0;
 	width:100%;
-	background: #bb9745;
+	background: #ff9f00;
 	text-align: center;
 	height:0;
 	visibility: hidden;
@@ -1064,8 +1064,8 @@ header .search_icon {
 	line-height: 35px;
 }
 .our_attorney .item .text ul li:hover {
-	background: #bb9745;
-	border:1px solid #bb9745;
+	background: #ff9f00;
+	border:1px solid #ff9f00;
 }
 .our_attorney .item .text ul li:hover a {
 	color:#fff;
@@ -1138,12 +1138,12 @@ header .search_icon {
 }
 .clinet_feedback #client_slider .owl-controls span {
 	opacity: 1;
-	border:2px solid #bb9745;
+	border:2px solid #ff9f00;
 	background: transparent;
 	margin: 5px;
 }
 .clinet_feedback #client_slider .owl-controls .active span {
-	background: #bb9745;
+	background: #ff9f00;
 }
 .owl-theme .owl-controls {
 	margin-top:39px;
@@ -1280,7 +1280,7 @@ header .search_icon {
 }
 .ui-state-focus,
 .ui-widget-content .ui-state-focus {
-	background: #bb9338;
+	background: #ff9f00;
 	color:#fff;
 	border:none;
 	margin:0;
@@ -1312,7 +1312,7 @@ header .search_icon {
 }
 .consultation .consultation_form .main_button:hover {
 	background: #fff;
-	color:#bb9338;
+	color:#ff9f00;
 }
 /*============================ Latest News ======================*/
 .latest_news {
@@ -1383,7 +1383,7 @@ header .search_icon {
 
 /*========================== Bottom banner ========================*/
 .bottom_banner {
-	background: #bb9338;
+	background: #ff9f00;
 	padding: 50px 0;
 }
 .bottom_banner .text h4 {
@@ -1405,7 +1405,7 @@ header .search_icon {
 }
 .bottom_banner a:hover {
 	background: #fff;
-	color:#bb9338;
+	color:#ff9f00;
 }
 
 /*=================================== Footer ===========================*/
@@ -1457,8 +1457,8 @@ footer .logo_footer ul li a {
 	color:#fff;
 }
 footer .logo_footer ul li:hover {
-	background:#c7972a;
-	border:1px solid #c7972a;
+	background:#ff9f00;
+	border:1px solid #ff9f00;
 }
 
 footer h4 {
@@ -1535,7 +1535,7 @@ footer .contact_form_footer button {
 	line-height: 50px;
 	color:#fff;
 	text-align: center;
-	background: #c7972a;
+	background: #ff9f00;
 }
 footer p.bottom_text {
 	color:#595959;
@@ -1545,7 +1545,7 @@ footer p.bottom_text {
 	margin-top:60px;
 }
 footer p.bottom_text a {
-	color:#c7972a;
+	color:#ff9f00;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 }
@@ -1909,7 +1909,7 @@ footer .contact_form_footer textarea:focus {
 	border:none !important;
 }
 .our_attorney_style_two .item .attorney_member {
-	border-bottom: 4px solid #bb9745;
+	border-bottom: 4px solid #ff9f00;
 }
 
 /*========================= Some extra facts ===================*/
@@ -1941,7 +1941,7 @@ footer .contact_form_footer textarea:focus {
 }
 .extra_facts .single_progress_skills .progress .progress-bar {
 	line-height: 8px;
-	background: #c79c39;
+	background: #ff9f00;
 	box-shadow: none;
 }
 .extra_facts .single_progress_skills p {
@@ -2243,7 +2243,7 @@ footer .contact_form_footer textarea:focus {
 }
 .video .video_text .single_progress_skills .progress .progress-bar {
 	line-height: 8px;
-	background: #c79c39;
+	background: #ff9f00;
 	box-shadow: none;
 }
 .video .video_text .single_progress_skills p {
@@ -2379,7 +2379,7 @@ footer .contact_form_footer textarea:focus {
 	left:0;
 	width:3px;
 	height:100%;
-	background: #c79c39;
+	background: #ff9f00;
 }
 .parctise_details_page_content .consult a {
 	float:right;
@@ -2410,7 +2410,7 @@ footer .contact_form_footer textarea:focus {
 	width:7px;
 	height:7px;
 	border-radius: 50%;
-	background: #c79c39;
+	background: #ff9f00;
 	position: absolute;
 	top:9px;
 	left:0;
@@ -2427,7 +2427,7 @@ footer .contact_form_footer textarea:focus {
 }
 .parctise_details_page_content .single_progress_skills .progress .progress-bar {
 	line-height: 8px;
-	background: #c79c39;
+	background: #ff9f00;
 	box-shadow: none;
 }
 .parctise_details_page_content .single_progress_skills p {
@@ -2463,7 +2463,7 @@ footer .contact_form_footer textarea:focus {
 	content: '';
 	width:100%;
 	height:3px;
-	background: #bb9338;
+	background: #ff9f00;
 	position: absolute;
 	bottom: 0;
 	left:0;
@@ -2548,7 +2548,7 @@ footer .contact_form_footer textarea:focus {
 .practise_area_style_three .single_item span:before {
 	line-height: 80px;
 	font-size: 45px;
-	color:#c79c39;
+	color:#ff9f00;
 	-webkit-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
@@ -2560,7 +2560,7 @@ footer .contact_form_footer textarea:focus {
 	margin-bottom: 85px;
 }
 .practise_area_style_three .single_item:hover span {
-	background: #c79c39;
+	background: #ff9f00;
 }
 .practise_area_style_three .single_item:hover span:before {
 	color:#fff;
@@ -2710,13 +2710,13 @@ footer .contact_form_footer textarea:focus {
 .side_bar_style_two form button {
 	width:65px;
 	height:100%;
-	background: #bb9338;
+	background: #ff9f00;
 	color:#fff;
 	text-align: center;
 	position: absolute;
 	top:0;
 	right:-1px;
-	border:1px solid #bb9338;
+	border:1px solid #ff9f00;
 	font-size: 18px;
 }
 
@@ -2803,8 +2803,8 @@ footer .contact_form_footer textarea:focus {
 }
 .side_bar_style_two .keyword ul li.active,
 .side_bar_style_two .keyword ul li:hover {
-	background: #bb9338;
-	border:1px solid #bb9338;
+	background: #ff9f00;
+	border:1px solid #ff9f00;
 }
 .side_bar_style_two .keyword ul li.active a,
 .side_bar_style_two .keyword ul li:hover a {
@@ -3041,7 +3041,7 @@ footer .contact_form_footer textarea:focus {
 }
 .attorney_details .attorney_sidebar .contact_details .single_contact_info ul li:hover,
 .attorney_details .attorney_sidebar .contact_details .single_contact_info ul li:focus {
-	background: #bb9338;
+	background: #ff9f00;
 }
 .attorney_details .agent_map {
 	height:295px;
@@ -3178,14 +3178,14 @@ footer .contact_form_footer textarea:focus {
 	vertical-align: middle;
 }
 .contact_us_form #success {
-  color: #bb9338;
+  color: #ff9f00;
 }
 .contact_us_form #error {
   color: red;
 }
 .contact_us_form #error button,
 .contact_us_form #success button {
-	color:#bb9338;
+	color:#ff9f00;
 	position: absolute;
 	background: transparent;
 	position: absolute;
@@ -3235,9 +3235,9 @@ footer .contact_form_footer textarea:focus {
 .contact_us_form form input:focus,
 .contact_us_form form textarea:focus,
 .error_page input:focus {
-	-webkit-box-shadow: 0px 0px 2px 0px rgba(187,147,56,0.79);
-	-moz-box-shadow: 0px 0px 2px 0px rgba(187,147,56,0.79);
-	box-shadow: 0px 0px 2px 0px rgba(187,147,56,0.79);
+	-webkit-box-shadow: 0px 0px 2px 0px rgb(#ff9f00);
+	-moz-box-shadow: 0px 0px 2px 0px rgb(#ff9f00);
+	box-shadow: 0px 0px 2px 0px rgb(#ff9f00);
 }
 
 /*========================== Error page =========================*/
@@ -3248,7 +3248,7 @@ footer .contact_form_footer textarea:focus {
 
 @keyframes error_notify {
 	0%   {color: #f0f0f0;}
-    50%  {color: #bb9338;}
+    50%  {color: #ff9f00;}
     100% {color: #f0f0f0;}
 }
 
@@ -3333,7 +3333,7 @@ footer .contact_form_footer textarea:focus {
 	content: '';
 	width:0;
 	height:1px;
-	background: #c79c39;
+	background: #ff9f00;
 	position: absolute;
 	bottom: 0;
 	left:0;
@@ -3348,7 +3348,7 @@ footer .contact_form_footer textarea:focus {
 }
 .gallery .gallery_menu li:hover,
 .gallery .gallery_menu li.active {
-	color:#c79c39;;
+	color:#ff9f00;;
 }
 .gallery .title span {
 	display: block;
@@ -3379,7 +3379,7 @@ footer .contact_form_footer textarea:focus {
 	position: absolute;
 	bottom: 0;
 	left:0;
-	background: #c79c39;
+	background: #ff9f00;
 	width:100%;
 	display: inline-block;
 	padding: 7px 0 20px 30px;
@@ -3458,6 +3458,6 @@ footer .contact_form_footer textarea:focus {
 	left:0;
 }
 .faq .tab_wrapper .panel-group .panel-heading.active-panel:before {
-	background: #c79c39;
+	background: #ff9f00;
 	color:#fff;
 }
