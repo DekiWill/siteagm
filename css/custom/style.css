@@ -1413,7 +1413,7 @@ footer {
 	background: url(../../images/home/footer-bg.jpg) no-repeat center;
 	background-size: cover;
 	position: relative;
-	height:550px;
+	height: 256px;
 }
 footer .overlay {
 	position: absolute;
