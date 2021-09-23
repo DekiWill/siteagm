@@ -547,7 +547,7 @@ header .search_icon {
 #main_slider_two a.free_consultation:hover,
 #main_slider_two a.free_consultation:focus {
 	background: #fff;
-	color:#bb9338;
+	color:#ff9f00;
 }
 #main_slider_two a.learn_more {
 	color:#fff;
@@ -1567,9 +1567,9 @@ footer .contact_form_footer :-ms-input-placeholder {
 }
 footer .contact_form_footer input:focus,
 footer .contact_form_footer textarea:focus {
-	-webkit-box-shadow: 0px 0px 2px 0px rgba(187,147,56,0.79);
-	-moz-box-shadow: 0px 0px 2px 0px rgba(187,147,56,0.79);
-	box-shadow: 0px 0px 2px 0px rgba(187,147,56,0.79);
+	-webkit-box-shadow: 0px 0px 2px 0px rgb(255,159,0);
+	-moz-box-shadow: 0px 0px 2px 0px rgb(255,159,0);
+	box-shadow: 0px 0px 2px 0px rgba(255,159,0);
 }
 
 /*============================ Some Achievement Style two ==================*/
@@ -1849,8 +1849,8 @@ footer .contact_form_footer textarea:focus {
 }
 #practise_area .practise_img .overlay_text a:hover,
 #practise_area .practise_img .overlay_text a:focus {
-	color:#c8a34c;
-	border:1px solid #c8a34c;
+	color:#ff9f00;
+	border:1px solid #ff9f00;
 	background: #fff;
 }
 #practise_area .item:hover .overlay,
@@ -2509,7 +2509,7 @@ footer .contact_form_footer textarea:focus {
 	margin-top:20px;
 }
 .side_bar .our_brochure a:hover {
-	background: #bb9745;
+	background: #ff9f00;
 }
 .side_bar .call_us {
 	border:1px solid #eaeaea;
@@ -3105,13 +3105,13 @@ footer .contact_form_footer textarea:focus {
 	background: #404040;
 }
 .attorney_details .attorney_history form button:hover {
-	background: #bb9338;
+	background: #ff9f00;
 }
 .attorney_details .attorney_history form input:focus,
 .attorney_details .attorney_history form textarea:focus {
-	-webkit-box-shadow: 0px 0px 2px 0px rgba(187,147,56,0.79);
-	-moz-box-shadow: 0px 0px 2px 0px rgba(187,147,56,0.79);
-	box-shadow: 0px 0px 2px 0px rgba(187,147,56,0.79);
+	-webkit-box-shadow: 0px 0px 2px 0px rgba(255,159,0);
+	-moz-box-shadow: 0px 0px 2px 0px rgba(255,159,0);
+	box-shadow: 0px 0px 2px 0px rgba(255,159,0);
 }
 
 /*============================ Contact Us Map =====================*/
@@ -3231,7 +3231,7 @@ footer .contact_form_footer textarea:focus {
 	background: #404040;
 }
 .contact_us_form .input_wrapper button:hover {
-	background: #bb9338;
+	background: #ff9f00;
 }
 .contact_us_form form input:focus,
 .contact_us_form form textarea:focus,
@@ -3281,7 +3281,7 @@ footer .contact_form_footer textarea:focus {
 	width:130px;
 	color:#fff;
 	text-align: center;
-	background: #c7972a;
+	background: #ff9f00;
 }
 .error_page a:hover {
 	background: #413f3f;
