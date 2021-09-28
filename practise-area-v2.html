@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
 	<meta charset="UTF-8">
 
@@ -21,7 +22,7 @@
 	<link rel="apple-touch-icon" sizes="144x144" href="images/fav-icon/apple-icon-144x144.svg">
 	<link rel="apple-touch-icon" sizes="152x152" href="images/fav-icon/apple-icon-152x152.svg">
 	<link rel="apple-touch-icon" sizes="180x180" href="images/fav-icon/apple-icon-180x180.svg">
-	<link rel="icon" type="image/png" sizes="192x192"  href="images/fav-icon/android-icon-192x192.svg">
+	<link rel="icon" type="image/png" sizes="192x192" href="images/fav-icon/android-icon-192x192.svg">
 	<link rel="icon" type="image/png" sizes="32x32" href="images/fav-icon/favicon-32x32.svg">
 	<link rel="icon" type="image/png" sizes="96x96" href="images/fav-icon/favicon-96x96.svg">
 	<link rel="icon" type="image/png" sizes="16x16" href="images/fav-icon/favicon-16x16.svg">
@@ -42,89 +43,112 @@
 </head>
 
 <body class="practise_area_details criminal_law">
-	 <!--[if lt IE 8]>
+	<!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
 
 	<!-- pre loader  -->
 
-	 	<div id="loader-wrapper">
-			<div id="loader"></div>
-		</div>
+	<div id="loader-wrapper">
+		<div id="loader"></div>
+	</div>
 
 	<!-- Scroll Top Button -->
-		<button class="scroll-top transition3s">
-			<i class="fa fa-angle-up" aria-hidden="true"></i>
-		</button>
+	<button class="scroll-top transition3s">
+		<i class="fa fa-angle-up" aria-hidden="true"></i>
+	</button>
 
-	
+	<!-- ==================================== FAB Whatsapp ============================ -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<a href="https://api.whatsapp.com/send?phone=5571992948556&text=" 
+	style="position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 8px;
+    right: auto;
+    left: 10px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+    flex-direction: row-reverse;"
+	target="_blank">
+	<i style="margin-top:16px" class="fa fa-whatsapp"></i>
+	</a>
+
+	<!-- ==================================== /FAB Whatsapp ==========================-->
 
 
-		
-<!-- ========================== Header ==================== -->
+
+	<!-- ========================== Header ==================== -->
 
 	<header class="main_menu">
 		<div class="container nav_wrapper">
 			<nav class="navbar navbar-default">
-			   <!-- Brand and toggle get grouped for better mobile display -->
-			   <div class="navbar-header">
-			   	<a class="navbar-brand" href="index.html">
-		        	<img alt="Brand" src="images/logo/logo 1 branca.png" class="img-responsive">
-		      	</a>
-			     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-			       <span class="sr-only">Toggle navigation</span>
-			       <span class="icon-bar"></span>
-			       <span class="icon-bar"></span>
-			       <span class="icon-bar"></span>
-			     </button>
-			   </div>
-			   <!-- Collect the nav links, forms, and other content for toggling -->
-			   <div class="collapse navbar-collapse" id="navbar-collapse-1">
-			     <ul class="nav navbar-nav">
-			       <li class="dropdown_menu"><a href="index.html" class="transition3s">Home</a>
-						<!--<ul class="sub_menu">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">
+						<img alt="Brand" src="images/logo/logo 1 branca.png" class="img-responsive">
+					</a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="dropdown_menu"><a href="index.html" class="transition3s">Home</a>
+							<!--<ul class="sub_menu">
 							<li><a href="index.html" class="transition3s">Home version One</a></li>
 							<li><a href="index-2.html" class="transition3s">Home version Two</a></li>
 							<li><a href="index-3.html" class="transition3s">Home version Three</a></li>
 						</ul>-->
-			       </li>
-			       <li><a href="about-us.html" class="transition-ease">Quem somos</a></li>
-			       <li class="dropdown_menu"><a href="#" class="transition-ease">ÁREAS DE ATUAÇÃO</a>
-						<ul class="sub_menu">
-							<li><a href="practise-area-v1.html" class="transition3s">Direito Trabalhista</a></li>
-							<li><a href="practise-area-v2.html" class="transition3s">Direito do Consumidor</a></li>
-							<li><a href="practise-area-v3.html" class="transition3s">Direito Empresarial</a></li>
-							<li><a href="practise-area-v4.html" class="transition3s">Direito previdenciário</a></li>
-						</ul>
-			       </li>
-			       <li class="dropdown_menu"><a href="#" class="transition-ease">SÓCIOS</a>
-			       		<ul class="sub_menu">
-							<li><a href="attorney-v1.html" class="transition3s">André Gonze</a></li>
-							<li><a href="attorney-v2.html" class="transition3s">Tiago Menezes</a></li>
-							<li><a href="attorney-v3.html" class="transition3s">Vinícius Almeida</a></li>
-							<!--<li><a href="attorney-details.html" class="transition3s">attorney details</a></li>-->
-						</ul>
-			       </li>
-			       <!--<li class="dropdown_menu"><a href="#" class="transition-ease">BLOG</a>
+						</li>
+						<li><a href="about-us.html" class="transition-ease">Quem somos</a></li>
+						<li class="dropdown_menu"><a href="#" class="transition-ease">ÁREAS DE ATUAÇÃO</a>
+							<ul class="sub_menu">
+								<li><a href="practise-area-v1.html" class="transition3s">Direito Trabalhista</a></li>
+								<li><a href="practise-area-v2.html" class="transition3s">Direito do Consumidor</a></li>
+								<li><a href="practise-area-v3.html" class="transition3s">Direito Empresarial</a></li>
+								<li><a href="practise-area-v4.html" class="transition3s">Direito de Família</a></li>
+							</ul>
+						</li>
+						<li class="dropdown_menu"><a href="#" class="transition-ease">SÓCIOS</a>
+							<ul class="sub_menu">
+								<li><a href="attorney-v1.html" class="transition3s">André Gonze</a></li>
+								<li><a href="attorney-v2.html" class="transition3s">Tiago Menezes</a></li>
+								<li><a href="attorney-v3.html" class="transition3s">Vinícius Almeida</a></li>
+								<!--<li><a href="attorney-details.html" class="transition3s">attorney details</a></li>-->
+							</ul>
+						</li>
+						<!--<li class="dropdown_menu"><a href="#" class="transition-ease">BLOG</a>
 			       		<ul class="sub_menu">
 							<li><a href="blog-grid.html" class="transition3s">Blog Grid</a></li>
 							<li><a href="blog-with-sidebar.html" class="transition3s">Blog with Sidebar</a></li>
 							<li><a href="blog-details.html" class="transition3s">Blog details</a></li>
 						</ul>
 			       </li>-->
-			       <!--<li class="dropdown_menu"><a href="#" class="transition-ease">Artigos</a>-->
-			       		 <!--<ul class="sub_menu">
+						<!--<li class="dropdown_menu"><a href="#" class="transition-ease">Artigos</a>-->
+						<!--<ul class="sub_menu">
 							<li><a href="faq.html" class="transition3s">faq page</a></li>
 							<li><a href="404.html" class="transition3s">Error Page</a></li>
 							<li><a href="gallery.html" class="transition3s">Gallery One</a></li>
 							<li><a href="gallery-2.html" class="transition3s">gallery two</a></li>
 						</ul>-->
-			       </li>
-				   <li class="dropdown_menu"><a href="faq.html" class="transition-ease">FAQ</a></li>
-			       <li><a href="contact-us.html" class="transition-ease">Fale Conosco</a></li>
-			     </ul>
-			   </div><!-- /.navbar-collapse -->
+						</li>
+						<li class="dropdown_menu"><a href="faq.html" class="transition-ease">FAQ</a></li>
+						<li><a href="contact-us.html" class="transition-ease">Fale Conosco</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
 			</nav>
 			<!-- Search Option -->
 			<form action="#" id="search_option">
@@ -137,68 +161,160 @@
 		</div><!--  End of .nav_wrapper -->
 	</header>
 
-<!-- ========================== /Header =================== -->
+	<!-- ========================== /Header =================== -->
 
 
 
-<!-- ========================== Innaer Banner ========================= -->
+	<!-- ========================== Innaer Banner ========================= -->
 
 
 	<section id="inner_banner">
 		<div class="overlay">
 			<div class="container">
-				<h3>DIREITO DO CONSUMIDOR</h3>
+				<h3>DIREITO TRABALHISTA</h3>
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li>/</li>
-					<li>DIREITO DO CONSUMIDOR</li>
+					<li>DIREITO TRABALHISTA</li>
 				</ul>
 			</div>
 		</div>
 	</section> <!-- /inner_banner -->
 
 
-<!-- ========================== /Innaer Banner ========================= -->
+	<!-- ========================== /Innaer Banner ========================= -->
 
 
 
-<!-- ===================== Practise area details page ================== -->
+	<!-- ===================== Practise area details page ================== -->
 
 	<section class="container">
 		<div class="row">
 			<div class="col-lg-9 col-md-8 col-sm-12 col-xs-12 parctise_details_page_content">
-				<img src="images/practise-area/wallet-1013789.jpg" alt="image" class="img-responsive">
+				<img src="images/practise-area/banner-direito_trabalhista.jpg" alt="image" class="img-responsive">
 
 				<div class="title">
-					<h3>Direito do Consumidor</h3>
+					<h3>Direito Trabalhista</h3>
 					<p>AGM Advogados Associados, a partir de seus sócios <span>FULANO A, FLUNA B e FULANO C, </span>
-						contam com profundo conhecimento da prática do Direito do Consumidor. </p>
+						contam com profundo conhecimento da prática do Direito do Trabalho, Individual e Coletivo. </p>
 				</div><!--  /title -->
 
 				<div class="text">
-					<h3>Direito do Consumidor em Salvador e o Código de Defesa do Consumidor</h3>
-					<p>Em 1990, foi instituído o Código de Defesa do Consumidor (CDC), um grande marco na história do direito do consumidor em Salvador e no Brasil. Trata-se do conjunto de normas que estabelece os direitos do consumidor e os deveres dos fornecedores de produtos e serviços no país. O documento prevê também padrões de conduta, prazos e penalidades em caso de desrespeito à lei.
-					</p><br>
+					<h3>ASSESSORIA JURÍDICA PREVENTIVA</h3>
+					<br>
 					<p>
-						O CDC assegura outros direitos básicos, como a proteção da vida, da saúde e da segurança contra riscos provocados no fornecimento de produtos e serviços, proteção contra a publicidade enganosa e abusiva e prevenção e reparação de danos patrimoniais e morais.
-					</p><br>
-					<p>
-						O código estabelece a participação de diferentes órgãos públicos e entidades privadas que integram o Sistema Nacional de Defesa do Consumidor (SNDC). O objetivo é garantir o cumprimento dos direitos do consumidor e o respeito nas relações de consumo.
-					</p><br>
-					<p>
-						Uma das premissas essenciais para se estabelecer a chamada relação de consumo, são os conceitos legais para palavras como consumidor, serviço ou produto. Elas estão estabelecidas nos artigos iniciais do CDC:
-					</p><br>
-					<p>
-						• Consumidor é toda pessoa física ou jurídica que adquire ou utiliza produto ou serviço como destinatário final. Equipara-se a consumidor a coletividade de pessoas, ainda que indetermináveis, que haja intervindo nas relações de consumo. (art. 2º)
+						A atuação de AGM Advogados Associados não se restringe apenas às demandas trabalhistas,
+						mas também à emissão de pareceres jurídicos, respostas às mais variadas consultas,
+						redação de contratos de trabalho especiais, elaboração de minutas e políticas trabalhistas
+						empresariais,
+						com excelência técnica e soluções inovadoras e decisivas.
 					</p>
+
+					<h3>SEGURANÇA E MEIO AMBIENTE DO TRABALHO</h3>
+					<br>
 					<p>
-						• Fornecedor é toda pessoa física ou jurídica, pública ou privada, nacional ou estrangeira, bem como os entes despersonalizados que desenvolvem atividades de produção, montagem, criação, construção, transformação, importação, exportação, distribuição ou comercialização de produtos ou prestação de serviços. (art. 3º)
+						Desenvolvimento, acompanhamento e gestão de Programas de Prevenção de Riscos Ambientais (PPRA),
+						CIPA, Programas de Controle Médico e Saúde Ocupacional (PCMSO),
+						adequação às Normas Regulamentaras –NRs, elaboração e desenvolvimentos de rotinas nas
+						investigações
+						de acidente de trabalho, acompanhamento de perícias e inspeções do Ministério do Trabalho e
+						Emprego,
+						Ministério Público do Trabalho e Justiça do Trabalho.
 					</p>
+
+					<h3>DIREITO COLETIVO DO TRABALHO</h3>
+					<br>
 					<p>
-						• Produto é qualquer bem, móvel ou imóvel, material ou imaterial. (art. 3º, § 1º)
+						Acompanhamento das Relações da Empresa com Sindicatos,
+						negociação de acordos coletivos, convenções coletivas e dissídios.
 					</p>
+
+					<h3>CONTRATOS</h3>
+					<br>
 					<p>
-						• Serviço é qualquer atividade fornecida no mercado de consumo mediante remuneração, inclusive as de natureza bancária, financeira, de crédito e securitária, salvo as decorrentes das relações de caráter trabalhista. (art. 3º, § 2º)
+						Assessoria e consultoria em contratos de terceirização de serviços, contratação de mão de obra,
+						revisão e atualização dos contratos de trabalho, contratos de fornecedores e clientes em geral.
+					</p>
+
+					<h3>DUE DILIGENCE</h3>
+					<br>
+					<p>
+						Assessoria na elaboração de auditorias trabalhistas, avaliando potenciais ajustes de
+						procedimentos para a eliminação ou mitigação de eventuais contingências, apontando as adequações
+						necessárias para o cumprimento das obrigações legais, levantando riscos e passivos trabalhistas,
+						inclusive os ocultos, acompanhamento dos trabalhos contábeis e do departamento pessoal, para
+						melhor adequação dos procedimentos internos à luz da legislação trabalhista.
+					</p>
+
+					<h3>CONTENCIOSO TRABALHISTA</h3>
+					<br>
+					<p>
+						Acompanhamento de processos, desde a obtenção de documentação e informações para a elaboração de
+						contestação em ações judiciais trabalhistas, acompanhando e diligenciando os processos em todas
+						as instânciase Tribunais Superiores, acompanhamento de perícias judiciais e Ministeriais. No
+						âmbito administrativo, atua representando o cliente junto ao Ministério do Trabalho e Emprego,
+						Ministério Público do Trabalho e Sindicatos, elaboração de defesa de autos de infração e
+						acompanhamento para contratação de cota legal de aprendizagem e pessoa com deficiência.
+					</p>
+
+					<h3>AUDITORIA GERAL, ESPECÍFICA, FRAUDES E/OU AUDITORIAS PERIÓDICAS</h3>
+					<br>
+					<p>
+						A auditoria geral trabalhista visa ao levantamento do “passivo oculto” mediante exame de
+						documentos referentes à área trabalhista, bem como nos setores de Medicina de Trabalho, Sindical
+						e Recursos Humanos. Já a auditoria periódica busca fazer uma análise em tempos regulares com
+						acompanhamento das rotinas administrativas em visitas. Nosso corpo jurídico oferece uma
+						radiografia completa do que está acontecendo de errado e indicamos ações corretivas.
+					</p>
+
+					<h3>TRABALHO INTEGRADO COM DEPARTAMENTO DE RECURSOS HUMANOS (DRH)</h3>
+					<br>
+					<p>
+						Reestruturação e/ou aprimoramento do DRH da sua empresa com a criação, avaliação e adequação do
+						plano de cargos e salários, do regulamento interno, das regras de trabalho e práticas-padrão
+						desenvolvidas, análise de situações especiais e o remanejamento de empregados. Elaboração e/ou
+						revisão dos contratos de trabalho dos funcionários da sua empresa com o apontamento dos passivos
+						trabalhistas. Os contratos realizados, quando bem geridos, são um instrumento fundamental na
+						prevenção e redução do “passivo oculto”, pois um contrato mal elaborado pode acarretar num ônus
+						para uma empresa.
+						Análise de todo o procedimento administrativo utilizado no DRH com a elaboração de formulários e
+						circulares-padrão que forem necessários à regulamentação operacional da empresa, tais como:
+						formulários de controle da portaria, controle de ausência, requisição e recebimento de
+						equipamentos de proteção individual – EPIs, formulários de controle de entrada e saída de
+						veículos, entre outros.
+					</p>
+
+					<h3>ASSESSORIA PARA ANÁLISE DE CONTRATOS COM REPRESENTANTES COMERCIAIS</h3>
+					<br>
+					<p>
+						Elaboração e/ou revisão dos contratos de representação comercial, distratos, termos de transação
+						e recibos de pagamento, visando à proteção da sua empresa contra a formação de possíveis
+						vínculos empregatícios. Análise de todo o procedimento administrativo utilizado na relação entre
+						a empresa e os representantes comerciais.
+					</p>
+
+					<h3>ASSESSORIA PARA CONTRATOS DE TERCEIRIZADOS</h3>
+					<br>
+					<p>
+						A terceirização virou fato comum no mundo empresarial moderno e sua correta operacionalização
+						enseja a celebração de contratos. Nesse cenário, uma criteriosa avaliação das empresas
+						prestadoras de serviços e uma posterior e competente redação dos contratos é que vai determinar
+						o desenvolvimento operacional e as implicações jurídicas. Portanto, uma atenção adequada aos
+						contratos permite a minimização dos riscos do processo de contratação de terceiros. Nosso
+						departamento faz a elaboração e/ou revisão dos contratos de prestação de serviços, analisando os
+						possíveis riscos para a sua empresa.
+					</p>
+
+					<h3>ASSESSORIA PARA CONTRATOS COM COOPERATIVAS</h3>
+					<br>
+					<p>
+						Consultoria das relações da sua empresa com as cooperativas de trabalho, procedendo a uma
+						análise criteriosa dos documentos, contratos e de procedimento administrativo utilizados nessa
+						relação. Visamos a uma proteção quanto a formação de “pseudo-cooperativas”, já que existe uma
+						constante e eficiente fiscalização de órgãos governamentais no funcionamento das mesmas, e uma
+						vez que as cooperativas podem ser descaracterizadas, a sua empresa pode sofrer incalculáveis
+						prejuízos em função da necessidade de reconhecimento dos vínculos empregatícios. Análise do
+						“passivo jurídico oculto” proveniente das relações entre sua empresa e as cooperativas.
 					</p><br><br>
 				</div> <!-- /text -->
 
@@ -263,10 +379,10 @@
 				</div>
 			</div> <!-- /parctise_details_page_content -->
 
-<!-- =========================== Side bar ========================= -->
+			<!-- =========================== Side bar ========================= -->
 
 			<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 side_bar">
-				
+
 				<!-- ========== Practise category ========== -->
 
 				<div class="practise_category">
@@ -280,7 +396,7 @@
 						<li><a href="practise-area-v3.html" class="transition3s"><i class="fa fa-angle-right"
 									aria-hidden="true"></i> Direito Empresarial</a></li>
 						<li><a href="practise-area-v4.html" class="transition3s"><i class="fa fa-angle-right"
-									aria-hidden="true"></i> Direito Previdenciário </a></li>
+									aria-hidden="true"></i> Direito de Família </a></li>
 					</ul>
 				</div> <!-- /practise_category -->
 
@@ -303,11 +419,11 @@
 	</section>
 
 
-<!-- ===================== /Practise area details page ================== -->
+	<!-- ===================== /Practise area details page ================== -->
 
 
 
-<!-- ====================== Need legal advice ======================== -->
+	<!-- ====================== Need legal advice ======================== -->
 
 	<!-- <section class="need_legal_advice mTop_fix">
 		<div class="opacity">
@@ -325,7 +441,7 @@
 
 
 
-<!-- =============================== Bottom Banner ====================== -->
+	<!-- =============================== Bottom Banner ====================== -->
 
 
 	<!--<div class="bottom_banner">
@@ -333,104 +449,110 @@
 			<div class="text flt_left">
 				<h4>Here will be any kind lorem ipsum heading</h4>
 				<p>There are many variations of passages of Lorem Ipsum available, but the majority have </p>
-			</div> --><!-- End .text -->
-			<!--<a href="attorney-v2.html" class="transition3s flt_right">See all Members</a>
+			</div> -->
+	<!-- End .text -->
+	<!--<a href="attorney-v2.html" class="transition3s flt_right">See all Members</a>
 			<div class="clear_fix"></div>
-		</div>--> <!-- End .container -->
-	<!--</div>--> <!-- End .bottom_banner -->
+		</div>-->
+	<!-- End .container -->
+	<!--</div>-->
+	<!-- End .bottom_banner -->
 
 
-<!-- =============================== /Bottom Banner ====================== -->
+	<!-- =============================== /Bottom Banner ====================== -->
 
 
-<!-- ==================================== Footer ============================ -->
+	<!-- ==================================== Footer ============================ -->
 
 
-<footer>
-	<div class="overlay">
-		<div class="container">
-			<div class="row">
+	<footer>
+		<div class="overlay">
+			<div class="container">
+				<div class="row">
 
-				<!-- _______ Logo ______ -->
+					<!-- _______ Logo ______ -->
 
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 logo_footer">
-					<a href="index.html"><img src="images/home/LOGO VETORIZADA 2 - rodape.png" alt="logo"
-							class="img-responsive"></a>
-					<!--<p>Lorem ipsum dolor sit amet, eu me evert laboramus, iudico</p>-->
-					<div class="address">
-						<span><i class="fa fa-map-marker"></i>Av. Tancredo Neves, 620 Empresarial Mundo Plaza,
-							Caminho das Árvores, Salvador-BA. Cep: 41.820-000</span>
-						<span><i class="fa fa-phone"></i> (71) 71 99344-7161</span>
-						<span><i class="fa fa-envelope-o"></i> contato@agmadvogados.com</span>
-						<ul class="social_icon">
-							<li class="round_border transition3s"><a href=""><i class="fa fa-facebook"></i></a></li>
-							<li class="round_border transition3s"><a href=""><i class="fa fa-twitter"></i></a></li>
-							<li class="round_border transition3s"><a href=""><i class="fa fa-google-plus"></i></a>
-							</li>
-							<li class="round_border transition3s"><a href=""><i class="fa fa-instagram"></i></a>
-							</li>
-							<!--<li class="round_border transition3s"><a href=""><i class="fa fa-vimeo"></i></a></li>-->
-						</ul>
-					</div> <!-- End .address -->
-				</div> <!-- End .logo_footer -->
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 logo_footer">
+						<a href="index.html"><img src="images/home/LOGO VETORIZADA 2 - rodape.png" alt="logo"
+								class="img-responsive"></a>
+						<!--<p>Lorem ipsum dolor sit amet, eu me evert laboramus, iudico</p>-->
+						<div class="address">
+							<span><i class="fa fa-map-marker"></i>Av. Tancredo Neves, 620 Empresarial Mundo Plaza,
+								Caminho das Árvores, Salvador-BA. Cep: 41.820-000</span>
+							<span><i class="fa fa-phone"></i> (71) 71 99344-7161</span>
+							<span><i class="fa fa-envelope-o"></i> contato@agmadvogados.com</span>
+							<ul class="social_icon">
+								<li class="round_border transition3s"><a href=""><i class="fa fa-facebook"></i></a></li>
+								<li class="round_border transition3s"><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li class="round_border transition3s"><a href=""><i class="fa fa-google-plus"></i></a>
+								</li>
+								<li class="round_border transition3s"><a href=""><i class="fa fa-instagram"></i></a>
+								</li>
+								<!--<li class="round_border transition3s"><a href=""><i class="fa fa-vimeo"></i></a></li>-->
+							</ul>
+						</div> <!-- End .address -->
+					</div> <!-- End .logo_footer -->
 
-				<!-- _____ Service ________ -->
-				<!-- <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 service_footer">
-				<h4>Service</h4>
+					<!-- _____ Service ________ -->
+					<!-- <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 service_footer">
+					<h4>Service</h4>
 
-				<ul>
-					<li><a href="practise-area-details.html" class="transition3s">Criminal Law</a></li>
-					<li><a href="practise-area-details.html" class="transition3s">Financial Law</a></li>
-					<li><a href="practise-area-details.html" class="transition3s">Industrial Law</a></li>
-					<li><a href="practise-area-details.html" class="transition3s">Insurance Law</a></li>
-					<li><a href="practise-area-details.html" class="transition3s">Divorce Law</a></li>
-					<li><a href="practise-area-details.html" class="transition3s">Child Law</a></li>
-					<li><a href="practise-area-details.html" class="transition3s">Business Law</a></li>
-				</ul>
-			</div>-->
-				<!-- End .service_footer -->
-
-				<!-- ____________ News area ___________ -->
-				<!--<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 news_footer">
-				<h4>Últimas nóticias</h4>
-
-				<div class="news_post">
-					<a href="blog-details.html"><p>Notícia 1</p></a>
-					<span>xx de mês de xxxx</span>
-				</div> -->
-				<!-- End .news_post -->
-
-				<!--<div class="news_post">
-					<a href="blog-details.html"><p>Notícia 2</p></a>
-					<span>xx de mês de xxxx</span>
+					<ul>
+						<li><a href="practise-area-details.html" class="transition3s">Criminal Law</a></li>
+						<li><a href="practise-area-details.html" class="transition3s">Financial Law</a></li>
+						<li><a href="practise-area-details.html" class="transition3s">Industrial Law</a></li>
+						<li><a href="practise-area-details.html" class="transition3s">Insurance Law</a></li>
+						<li><a href="practise-area-details.html" class="transition3s">Divorce Law</a></li>
+						<li><a href="practise-area-details.html" class="transition3s">Child Law</a></li>
+						<li><a href="practise-area-details.html" class="transition3s">Business Law</a></li>
+					</ul>
 				</div>-->
-				<!-- End .news_post -->
+					<!-- End .service_footer -->
 
-				<!--<div class="news_post">
-					<a href="blog-details.html"><p>Notícia 3 </p></a>
-					<span>xx de mês de xxxx</span>
-				</div> -->
-				<!-- End .news_post -->
-				<!--</div>-->
-				<!-- End .news_footer -->
+					<!-- ____________ News area ___________ -->
+					<!--<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 news_footer">
+					<h4>Últimas nóticias</h4>
 
-				<!-- _____________ Contact Form _________________ -->
+					<div class="news_post">
+						<a href="blog-details.html"><p>Notícia 1</p></a>
+						<span>xx de mês de xxxx</span>
+					</div> -->
+					<!-- End .news_post -->
 
-				<!--<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 contact_form_footer">
-				<h4>Contact Form</h4>
-				<form action="inc/sendemail.php" method="post" class="footer-form-validation">
-					<input name="name" type="text" placeholder="Full Name" title="Enter your name">
-					<input name="email" type="email" placeholder="Email Adress" title="Enter your Email">
-					<textarea name="message" placeholder="Message" title="Write your message....."></textarea>
-					<button type="submit" title="Send Us" class="hover_btn transition3s">Send</button>
-				</form>
-			</div> End .contact_form_footer-->
-			</div>
-		</div> <!-- End .container -->
+					<!--<div class="news_post">
+						<a href="blog-details.html"><p>Notícia 2</p></a>
+						<span>xx de mês de xxxx</span>
+					</div>-->
+					<!-- End .news_post -->
 
-		<!-- 	<p class="bottom_text">Theme Created By <a href="http://themeforest.net/user/creativegigs/portfolio" target="_blank"> Creative Gigs </a> with love</p>-->
-	</div> <!-- End .overlay -->
-</footer>
+					<!--<div class="news_post">
+						<a href="blog-details.html"><p>Notícia 3 </p></a>
+						<span>xx de mês de xxxx</span>
+					</div> -->
+					<!-- End .news_post -->
+					<!--</div>-->
+					<!-- End .news_footer -->
+
+					<!-- _____________ Contact Form _________________ -->
+
+					<!--<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 contact_form_footer">
+					<h4>Contact Form</h4>
+					<form action="inc/sendemail.php" method="post" class="footer-form-validation">
+						<input name="name" type="text" placeholder="Full Name" title="Enter your name">
+						<input name="email" type="email" placeholder="Email Adress" title="Enter your Email">
+						<textarea name="message" placeholder="Message" title="Write your message....."></textarea>
+						<button type="submit" title="Send Us" class="hover_btn transition3s">Send</button>
+					</form>
+				</div> End .contact_form_footer-->
+				</div>
+			</div> <!-- End .container -->
+
+			<!-- 	<p class="bottom_text">Theme Created By <a href="http://themeforest.net/user/creativegigs/portfolio" target="_blank"> Creative Gigs </a> with love</p>-->
+		</div> <!-- End .overlay -->
+	</footer>
+
+
+	<!-- ==================================== /Footer ============================ -->
 
 
 
@@ -441,7 +563,9 @@
 	<!-- Bootstrap JS -->
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<!-- Google map js -->
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ8VrXgGZ3QSC-0XubNhuB2uKKCwqVaD0&callback=gMapHome" type="text/javascript"></script> <!-- Gmap Helper -->
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ8VrXgGZ3QSC-0XubNhuB2uKKCwqVaD0&callback=gMapHome"
+		type="text/javascript"></script> <!-- Gmap Helper -->
 	<script src="js/gmaps.min.js"></script>
 	<!-- Owl carousel -->
 	<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
@@ -455,10 +579,11 @@
 	<script type="text/javascript" src="vendor/jquery-ui/jquery-ui.min.js"></script>
 	<!-- Validation -->
 	<script type="text/javascript" src="js/validate.js"></script>
-	
+
 	<!-- Theme js -->
 	<script type="text/javascript" src="js/theme-map-script.js"></script>
 	<script type="text/javascript" src="js/theme.js"></script>
 
 </body>
+
 </html>
