@@ -1,8 +1,10 @@
 <?php
 
+    //var_dump($_POST);
+    //die();
     $to = "nayjaras.watanabe@gmail.com";
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
+    $from = 'contato@kamikazetokko.gq';
+    $name = $_POST['name'];
     $headers = "From: $from";
     $subject = "You have a message from your Right Firm.";
 
@@ -13,8 +15,9 @@
     $fields["message"] = "message";
     
 
-    $body = "Here is the message you got:\n\n"; foreach($fields as $a => $b)[   $body .= sprintf("%20s: %s\n",$b,$_REQUEST[$a])]; 
+    $body = "Here is the message you got:\n\n"; 
+    foreach($fields as $a => $b)[   $body .= sprintf("%20s: %s\n",$b,$_POST[$a])]; 
 
     $send = mail($to, $subject, $body, $headers);
-
+//var_dump($send);
 ?>
