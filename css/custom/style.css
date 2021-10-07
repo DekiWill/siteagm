@@ -86,6 +86,11 @@ This files contents are outlined below >>>>>
 
 
 
+/**
+* Fontawesome versão 6.0.0
+**/
+
+@import url('../../fonts/fontawesome6/css/all.min.css');
 
 
 
@@ -3462,3 +3467,8 @@ footer .contact_form_footer textarea:focus {
 	background: #ff9f00;
 	color:#fff;
 }
+
+/* Bloquinho da Kami */
+.practise-area--icon{
+	 color: #ff9f00 important!;
+} 
