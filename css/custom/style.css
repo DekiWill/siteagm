@@ -1418,7 +1418,7 @@ footer {
 	background: url(../../images/home/footer-bg.jpg) no-repeat center;
 	background-size: cover;
 	position: relative;
-	height: 550px;
+	height: 290px;
 }
 footer .overlay {
 	position: absolute;
@@ -3469,6 +3469,6 @@ footer .contact_form_footer textarea:focus {
 }
 
 /* Bloquinho da Kami */
-.practise-area--icon{
-	 color: #ff9f00 important!;
+.color_icon{
+	 color: #ff9f00;
 } 
