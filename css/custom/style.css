@@ -86,6 +86,11 @@ This files contents are outlined below >>>>>
 
 
 
+/**
+* Fontawesome versão 6.0.0
+**/
+
+@import url('../../fonts/fontawesome6/css/all.min.css');
 
 
 
@@ -1413,7 +1418,7 @@ footer {
 	background: url(../../images/home/footer-bg.jpg) no-repeat center;
 	background-size: cover;
 	position: relative;
-	height: 550px;
+	height: 290px;
 }
 footer .overlay {
 	position: absolute;
@@ -3462,3 +3467,8 @@ footer .contact_form_footer textarea:focus {
 	background: #ff9f00;
 	color:#fff;
 }
+
+/* Bloquinho da Kami */
+.color_icon{
+	 color: #ff9f00;
+} 
