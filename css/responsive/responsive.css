@@ -367,7 +367,7 @@
 	}
 	.practise_area_style_two .single_item:hover,
 	.practise_area_style_two .single_item:hover .bg {
-		border: 1px solid #bb9338 !important;
+		border: 1px solid #ff9f00 !important;
 	}
 	.video .video_text,
 	.video .video_content {
@@ -438,7 +438,7 @@
 		float:left;
 		display: block;
 		border-radius: 0;
-		background: #bb9338;
+		background: #ff9f00;
 		border:none;
 		-webkit-transition: all 0.3s ease-in-out;
 		-o-transition: all 0.3s ease-in-out;
@@ -453,7 +453,7 @@
 	}
 	.main_menu .navbar-default .navbar-toggle:hover .icon-bar,
 	.main_menu .navbar-default .navbar-toggle:focus .icon-bar {
-		background-color:#bb9338; 
+		background-color:#ff9f00; 
 	}
 
 	header .navbar-default .navbar-collapse {
@@ -505,7 +505,7 @@
 		right:15px;
 		cursor: pointer;
 		font-size: 20px;
-		color:#bb9338;;
+		color:#ff9f00;;
 	}
 	header .search_icon {
 		top:100px;
