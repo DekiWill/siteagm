@@ -163,60 +163,41 @@
 
 	<div class="contact_us_map">
 		<!-- Change the data-map-lat and data-map-lng value to show your custom place -->
-		<div class="google-map" id="map3" data-map-lat="-12.982242" data-map-lng="-38.461847"
-			data-icon-path="images/map/map-icon.png" data-map-zoom="15" style="height:100%;"></div>
+		<iframe
+		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8809922969895!2d-38.459449612200935!3d-12.979462778982791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b191eecab09%3A0xe8294703b63bc36b!2sMundo%20Plaza%20Empresarial!5e0!3m2!1spt-BR!2sbr!4v1634046340069!5m2!1spt-BR!2sbr"
+		width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		<!--<div class="google-map" id="map3" data-map-lat="-12.982242" data-map-lng="-38.461847"
+			data-icon-path="images/map/map-icon.png" data-map-zoom="15" style="height:100%;"></div>-->
 	</div>
 
 	<!-- ======================== /Contact Us Map =========================- -->
 
 
-
-	<!-- ====================== Conatct Information ========================= -->
-
-	<div class="information_area container">
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single_info">
-				<div class="icon"><span class="transition3s ficon flaticon-map"></span></div> <!-- /icon -->
-				<h6>Endereço</h6>
-				<p>Av. Tancredo Neves, 620 Empresarial Mundo Plaza, Caminho das Árvores, Salvador-BA. Cep: 41.820-000
-				</p>
-			</div> <!-- /single_info -->
-
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single_info">
-				<div class="icon"><span class="transition3s ficon flaticon-message"></span></div> <!-- /icon -->
-				<h6>E-mail</h6>
-				<p>contato@agmadvogados.com</p>
-			</div> <!-- /single_info -->
-
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single_info">
-				<div class="icon"><span class="transition3s ficon flaticon-phone"></span></div> <!-- /icon -->
-				<h6>Telefone</h6>
-				<p>(71) 99344-7161</p>
-			</div> <!-- /single_info -->
-
-		</div>
-	</div> <!-- /information_area -->
-
-
-	<!-- ====================== /Conatct Information ========================= -->
-
-
 	<!-- ============================ Contact Form =========================== -->
 
 
-	<div class="contact_us_form">
+	<div class="contact_us_form" style="margin: 50px auto -117px auto; padding-bottom: -1px;">
 		<div class="container">
 			<form action="inc/sendemail.php" class="form-validation" method="post">
 				<h4>Nós adoraríamos que você entrasse em contato conosco!</h4>
 				<div class="input_wrapper row">
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 						<input name="name" type="text" placeholder="Nome">
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 						<input name="email" type="email" placeholder="Email">
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
 						<input name="phone" type="text" placeholder="Telefone">
+					</div>
+					<div class="select_option col-lg-3 col-md-4 col-sm-6 col-xs-12">
+						<select id="selectmenu" style="display: none;">
+							<option selected="selected">Selecione uma área de atuação</option>
+							<option>Direito Trabalhista</option>
+							<option>Direito do Consumidor</option>
+							<option>Direito Empresarial</option>
+							<option>Direito de Família</option>
+						</select>
 					</div>
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<textarea name="message" placeholder="Mensagem"></textarea>
@@ -241,6 +222,35 @@
 
 	<!-- ============================ /Contact Form =========================== -->
 
+
+	<!-- ====================== Conatct Information ========================= -->
+
+	<div class="information_area container">
+		<div class="row" style="padding-top: 40px; padding-bottom: 30px;">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single_info">
+				<div class="icon"><span class="transition3s ficon flaticon-map"></span></div> <!-- /icon -->
+				<h6>Endereço</h6>
+				<p>Av. Tancredo Neves, 620 Empresarial Mundo Plaza, Caminho das Árvores, Salvador-BA. Cep: 41.820-000
+				</p>
+			</div> <!-- /single_info -->
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single_info">
+				<div class="icon"><span class="transition3s ficon flaticon-message"></span></div> <!-- /icon -->
+				<h6>E-mail</h6>
+				<p>contato@agmadvogados.com</p>
+			</div> <!-- /single_info -->
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single_info">
+				<div class="icon"><span class="transition3s ficon flaticon-phone"></span></div> <!-- /icon -->
+				<h6>Telefone</h6>
+				<p>(71) 99344-7161</p>
+			</div> <!-- /single_info -->
+
+		</div>
+	</div> <!-- /information_area -->
+
+
+	<!-- ====================== /Conatct Information ========================= -->
 
 	<!-- ====================== Need legal advice ======================== -->
 
@@ -291,11 +301,11 @@
 						<a href="index.html"><img src="images/home/LOGO VETORIZADA 2 - rodape.png" alt="logo"
 								class="img-responsive"></a>
 						<ul class="social_icon" style="text-align: center;">
-							<li class="round_border transition3s"><a href=""><i class="fa-brands fa-facebook-f"></i></a>
+							<li class="round_border transition3s"><a href="" target="blank"><i class="fa-brands fa-facebook-f"></i></a>
 							</li>
-							<li class="round_border transition3s"><a href=""><i class="fa-brands fa-twitter"></i></a>
+							<li class="round_border transition3s"><a href="" target="blank"><i class="fa-brands fa-twitter"></i></a>
 							</li>
-							<li class="round_border transition3s"><a href=""><i class="fa-brands fa-instagram"></i></a>
+							<li class="round_border transition3s"><a href="https://www.instagram.com/agmadvogados_assoc/" target="blank"> <i class="fa-brands fa-instagram"></i></a>
 							</li>
 							<!--<li class="round_border transition3s"><a href=""><i class="fa fa-vimeo"></i></a></li>-->
 						</ul>
@@ -323,8 +333,8 @@
 						<div class="address">
 							<a
 								href="https://www.google.com/maps/place/Mundo+Plaza+Empresarial/@-12.9811117,-38.4596601,17z/data=!4m9!1m2!2m1!1sAv.+Tancredo+Neves,+620+Empresarial+Mundo+Plaza,+Caminho+das+%C3%81rvores,+Salvador-BA.+Cep:+41.820-000!3m5!1s0x7161b191eecab09:0xe8294703b63bc36b!8m2!3d-12.9791021!4d-38.4608229!15sCmNBdi4gVGFuY3JlZG8gTmV2ZXMsIDYyMCBFbXByZXNhcmlhbCBNdW5kbyBQbGF6YSwgQ2FtaW5obyBkYXMgw4Fydm9yZXMsIFNhbHZhZG9yLUJBLiBDZXA6IDQxLjgyMC0wMDCSAQ1idXNpbmVzc19wYXJr">
-								<p><span><i class="fa-solid fa-map-location-dot"></i>Av. Tancredo Neves, 620 Empresarial
-										Mundo Plaza, Caminho das Árvores, Salvador-BA. Cep: 41.820-000</span> </p>
+								<p><span><i class="fa-solid fa-map-location-dot"></i> Av. Tancredo Neves, 620 
+									<br> Ed. Mundo Plaza, Caminho das Árvores, Salvador-BA. CEP: 41.820-000</span> </p>
 							</a>
 						</div> <!-- End .news_post -->
 
@@ -335,7 +345,7 @@
 						</div> <!-- End .news_post -->
 
 						<div class="address">
-							<a href="#">
+							<a href="mailto:contato@agmadvogados.com">
 								<p><span><i class="fa-solid fa-envelope"></i> contato@agmadvogados.com</span></p>
 							</a>
 						</div>
@@ -344,39 +354,57 @@
 					<!-- End .news_post -->
 				</div> <!-- End .news_footer -->
 
+				<!-- _____________ Contact Form _________________ -->
+
+				<!--<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 contact_form_footer">
+			<h4>Contact Form</h4>
+			<form action="inc/sendemail.php" method="post" class="footer-form-validation">
+				<input name="name" type="text" placeholder="Full Name" title="Enter your name">
+				<input name="email" type="email" placeholder="Email Adress" title="Enter your Email">
+				<textarea name="message" placeholder="Message" title="Write your message....."></textarea>
+				<button type="submit" title="Send Us" class="hover_btn transition3s">Send</button>
+			</form>
+		</div> End .contact_form_footer-->
+			</div>
+		</div> <!-- End .container -->
+
+		<!-- 	<p class="bottom_text">Theme Created By <a href="http://themeforest.net/user/creativegigs/portfolio" target="_blank"> Creative Gigs </a> with love</p>-->
+		</div> <!-- End .overlay -->
+	</footer>
+
 	<!-- ==================================== /Footer ============================ -->
 
 
 
-	<!-- ==================Js File============== -->
+				<!-- ==================Js File============== -->
 
-	<!-- j Query -->
-	<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
-	<!-- Bootstrap JS -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<!-- Google map js -->
-	<script async defer
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4nG_CJ0-j9Cw2ZKeGbsOo_lHFPfFKyD4&callback=gMapHome"
-		type="text/javascript"></script> <!-- Gmap Helper -->
-	<script src="js/gmaps.min.js"></script>
-	<!-- Owl carousel -->
-	<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
-	<!-- Fancybox js -->
-	<script type="text/javascript" src="vendor/fancy-box/jquery.fancybox.pack.js"></script>
-	<script type="text/javascript" src="vendor/fancy-box/jquery.fancybox-media.js"></script>
-	<!-- js count to -->
-	<script type="text/javascript" src="vendor/jquery.appear.js"></script>
-	<script type="text/javascript" src="vendor/jquery.countTo.js"></script>
-	<!-- Jquery ui js -->
-	<script type="text/javascript" src="vendor/jquery-ui/jquery-ui.min.js"></script>
-	<!-- Validation -->
-	<script type="text/javascript" src="js/validate.js"></script>
-	<script type="text/javascript" src="js/jquery.form.js"></script>
+				<!-- j Query -->
+				<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+				<!-- Bootstrap JS -->
+				<script type="text/javascript" src="js/bootstrap.min.js"></script>
+				<!-- Google map js -->
+				<script async defer
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4nG_CJ0-j9Cw2ZKeGbsOo_lHFPfFKyD4&callback=gMapHome"
+					type="text/javascript"></script> <!-- Gmap Helper -->
+				<script src="js/gmaps.min.js"></script>
+				<!-- Owl carousel -->
+				<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+				<!-- Fancybox js -->
+				<script type="text/javascript" src="vendor/fancy-box/jquery.fancybox.pack.js"></script>
+				<script type="text/javascript" src="vendor/fancy-box/jquery.fancybox-media.js"></script>
+				<!-- js count to -->
+				<script type="text/javascript" src="vendor/jquery.appear.js"></script>
+				<script type="text/javascript" src="vendor/jquery.countTo.js"></script>
+				<!-- Jquery ui js -->
+				<script type="text/javascript" src="vendor/jquery-ui/jquery-ui.min.js"></script>
+				<!-- Validation -->
+				<script type="text/javascript" src="js/validate.js"></script>
+				<script type="text/javascript" src="js/jquery.form.js"></script>
 
 
-	<!-- Theme js -->
-	<script type="text/javascript" src="js/theme-map-script.js"></script>
-	<script type="text/javascript" src="js/theme.js"></script>
+				<!-- Theme js -->
+				<script type="text/javascript" src="js/theme-map-script.js"></script>
+				<script type="text/javascript" src="js/theme.js"></script>
 
 </body>
 
