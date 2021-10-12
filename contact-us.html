@@ -160,15 +160,69 @@
 
 	<!-- ======================== Contact Us Map ===========================- -->
 
-
-	<div class="contact_us_map">
+    <!--
+	<div class="contact_us_map">-->
 		<!-- Change the data-map-lat and data-map-lng value to show your custom place -->
-		<div class="google-map" id="map3" data-map-lat="-12.982242" data-map-lng="-38.461847"
+		 <!--<div class="google-map" id="map3" data-map-lat="-12.982242" data-map-lng="-38.461847"
 			data-icon-path="images/map/map-icon.png" data-map-zoom="15" style="height:100%;"></div>
-	</div>
+	</div>-->
 
 	<!-- ======================== /Contact Us Map =========================- -->
 
+
+	<!-- ============================ Contact Form =========================== -->
+
+
+	<div class="contact_us_form">
+		<div class="container">
+			<form action="inc/sendemail.php" class="form-validation" method="post">
+				<h4>Nós adoraríamos que você entrasse em contato conosco!</h4>
+				<div class="input_wrapper row">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+						<input name="name" type="text" placeholder="Nome">
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+						<input name="email" type="email" placeholder="Email">
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+						<input name="phone" type="text" placeholder="Telefone">
+					</div>
+					<div>
+						<div class="select_option col-lg-3 col-md-4 col-sm-12 col-xs-12" >
+							<select id="selectmenu">
+								<option selected="selected">Selecione uma área de atuação</option>
+								<option>Direito Trabalhista</option>
+								<option>Direito do Consumidor</option>
+								<option>Direito Empresarial</option>
+								<option>Direito de Família</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+						<textarea name="message" placeholder="Mensagem"></textarea>
+						<button class="transition3s" title="Send">Enviar</button>
+					</div>
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8809922969895!2d-38.459449612200935!3d-12.979462778982791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b191eecab09%3A0xe8294703b63bc36b!2sMundo%20Plaza%20Empresarial!5e0!3m2!1spt-BR!2sbr!4v1634046340069!5m2!1spt-BR!2sbr" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div> <!-- /input_wrapper -->
+			</form>
+			<div id="success">
+				<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+				<div class="wrapper">
+					<p>Sua mensagem foi enviada com sucesso!</p>
+				</div>
+			</div>
+			<div id="error">
+				<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+				<div class="wrapper">
+					<p>Opa! Algo deu errado, por favor, atualize a página e reenvie.</p>
+				</div>
+			</div>
+		</div>
+	</div> <!-- /contact_form -->
+
+	<!-- ============================ /Contact Form =========================== -->
 
 
 	<!-- ====================== Conatct Information ========================= -->
@@ -199,48 +253,6 @@
 
 
 	<!-- ====================== /Conatct Information ========================= -->
-
-
-	<!-- ============================ Contact Form =========================== -->
-
-
-	<div class="contact_us_form">
-		<div class="container">
-			<form action="inc/sendemail.php" class="form-validation" method="post">
-				<h4>Nós adoraríamos que você entrasse em contato conosco!</h4>
-				<div class="input_wrapper row">
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<input name="name" type="text" placeholder="Nome">
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<input name="email" type="email" placeholder="Email">
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-						<input name="phone" type="text" placeholder="Telefone">
-					</div>
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<textarea name="message" placeholder="Mensagem"></textarea>
-						<button class="transition3s" title="Send">Enviar</button>
-					</div>
-				</div> <!-- /input_wrapper -->
-			</form>
-			<div id="success">
-				<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
-				<div class="wrapper">
-					<p>Sua mensagem foi enviada com sucesso!</p>
-				</div>
-			</div>
-			<div id="error">
-				<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
-				<div class="wrapper">
-					<p>Opa! Algo deu errado, por favor, atualize a página e reenvie.</p>
-				</div>
-			</div>
-		</div>
-	</div> <!-- /contact_form -->
-
-	<!-- ============================ /Contact Form =========================== -->
-
 
 	<!-- ====================== Need legal advice ======================== -->
 
