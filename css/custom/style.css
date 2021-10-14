@@ -850,13 +850,13 @@ header .search_icon {
 	line-height: 28px;
 }
 .why_choose_us .choose_reason.item1:before {
-	content: "\f115";
+	content: "\f110";
 }
 .why_choose_us .choose_reason.item2:before {
-	content: "\f103";
+	content: "\f10b";
 }
 .why_choose_us .choose_reason.item3:before {
-	content: "\f113";
+	content: "\f112";
 }
 /*========================= Company Achivement ==================*/
 .company_achievement {
